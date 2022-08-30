@@ -127,10 +127,10 @@ fetchTableData();
             
            
             <div id="news-card" class="bg-white rounded-xl">
-            <div class="mt-20 ">
-            <div class="card-image">
+            <div class="mt-20">
+            
             <div class="url-img ">
-            <img src="${values.image_url}" class="rounded-t-lg" title="replacement" onerror="this.onerror=null;this.src='./united-images/manchester-united2.jpg'"/>
+            <img src="${values.image_url}" class="rounded-t-lg"  title="replacement" onerror="this.onerror=null;this.src='./united-images/manchester-united2.jpg'"/>
             
             </div>
             </div>
@@ -149,7 +149,7 @@ fetchTableData();
             
             </div>
 
-            <div id="prem-url" class="card-action text-center  p-5">
+            <div id="prem-url" class="card-action text-center mx-auto  p-5">
               
                 <a href="${values.link}" id="prem-url-background" target="_blank" class="text-white" >Full Article</a>  
             </div>       
