@@ -137,7 +137,7 @@ fetchTableData();
             
             <div class="card-content  ">
             <span class="card-title"></span>
-            <h3 id="title" class="text-red  p-5 text-center">${values.title}</h3>
+            <h3 id="title" class="text-red  p-5 ">${values.title}</h3>
             
             </div>
             
